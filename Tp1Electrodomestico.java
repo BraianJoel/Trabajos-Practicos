@@ -1,20 +1,20 @@
 
 
-public class electrodomestico {
+public class Tp1Electrodomestico {
     private String nombre;
     private String color;
     private double consumo;
     private double precio;
     private double peso;
 
-     public electrodomestico (String nombre) {
+     public Tp1Electrodomestico (String nombre) {
         this. color = "Gris plata";
         this.consumo = 10;
         this. precio = 100;
         this. peso = 2;
         this. nombre = nombre;
     }   
-    public electrodomestico(String nombre, String color, double consumo, double precio, double peso) {
+    public Tp1Electrodomestico(String nombre, String color, double consumo, double precio, double peso) {
         this. nombre = nombre;
         this. color = color;
         this.consumo = consumo;
